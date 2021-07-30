@@ -74,8 +74,11 @@ const Skills=()=>{
                     <ul>
                         <li>Architecture -MVVM</li>
                         <li>UI -XML, Jetpack Compose 1.0.0</li>
-                        <li>CRUD -Firebase</li>
-                        <li>Room database, SQLite</li>
+                        <li>CRUD -Firebase (Firestore)</li>
+                        <li>CRUD -Room database, SQLite</li>
+                        <li>Retrofit, Picass, Glide, Okhttp</li>
+                        <li>Lottie Animation</li>
+                        <li>Notifications- FCM</li>
                     </ul>
 
 

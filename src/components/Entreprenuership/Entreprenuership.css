@@ -20,7 +20,6 @@
 .bg-Afrowatch{
     background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627674021/AfroWatch/Afrowatch-logo_raivgn.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     height: 100vh;
 }
@@ -38,4 +37,14 @@
 
 .bg-Immersia .btn .btn-primary{
     background: rgba(0,0,0,.5);
+}
+
+@media (max-width:600px){
+    .bg-Afrowatch{
+        background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627674021/AfroWatch/Afrowatch-logo_raivgn.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
 }
