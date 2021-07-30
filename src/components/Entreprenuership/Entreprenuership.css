@@ -1,0 +1,41 @@
+.bg-Immersia{
+    background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627673944/immersia-logo-black_z8gj6g.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 533px;
+   
+}
+
+.bg-Softroniiks{
+    background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627674125/Softroniiks/Softroniiks_bg_image_i6c61t.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 512px;
+    margin-top: 10px;
+    
+}
+
+.bg-Afrowatch{
+    background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627674021/AfroWatch/Afrowatch-logo_raivgn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-Immersia a, .bg-Afrowatch a, .bg-Softroniiks a{
+    color: white;
+   
+}
+
+.bg-Immersia p, .bg-Afrowatch p, .bg-Softroniiks p{
+    color: white;
+   
+}
+
+
+.bg-Immersia .btn .btn-primary{
+    background: rgba(0,0,0,.5);
+}

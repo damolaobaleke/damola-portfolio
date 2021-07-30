@@ -1,0 +1,23 @@
+.navbar .navbar-brand{
+    font-weight: 500;
+    color: black;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 18px;
+    color: black;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: rgba(0,0,0,.5);
+    transition: 300ms ease-in-out;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}

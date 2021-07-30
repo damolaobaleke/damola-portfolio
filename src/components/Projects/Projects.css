@@ -1,0 +1,155 @@
+.bg-Android{
+    background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627664794/Android-Logo_1_zvxzqy.svg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+.bg-Android p,.bg-Web p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.bg-Android .card {
+    border: 0px solid;
+    box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 25%);
+    height: 300px;
+    border-radius: 20px;
+}
+
+.app-img{
+    border-radius: inherit;
+}
+
+.bg-Android .card:hover{
+    transform: scale(1.2);
+    transition: 500ms ease-in-out;
+}
+
+.bg-Android a {
+    color: black;
+}
+
+.app-style-text-datenight{
+    position: absolute;
+    color: white;
+    top: 10px;
+    left: 35px;
+}
+
+.bg-Web{
+    background: url("https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png");
+    background-repeat: no-repeat;
+    background-size: 600px; /*600px*/
+    background-position: center;
+    /* height: 100vh; */
+    border-right: 1px solid rgb(219, 215, 215);
+}
+
+.web-project-link{
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.rec2{
+    transform: rotate(45deg);
+}
+
+.rec4{
+}
+
+.rec3{
+    transform: rotateX(45deg);
+}
+
+.web-projects-list{
+    list-style-type: none;
+    
+}
+
+.gear-one{
+    animation:gearSpin;
+    animation-duration: 3000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    left: 30px;
+}
+
+.gear-two{
+    animation:gearSpin;
+    animation-duration: 3000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    left: 20px;
+}
+
+@keyframes gearSpin{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(90deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform:rotate(360deg);
+    }
+
+}
+
+@media(max-width:600px){
+    .bg-Android{
+        background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627664794/Android-Logo_1_zvxzqy.svg");
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: center;
+    }
+
+    .bg-Web{
+        background: url("https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png");
+        background-repeat: no-repeat;
+        background-size: 300px; /*600px*/
+        background-position: right bottom;
+        border-right: 1px solid rgb(219, 215, 215);
+        
+    }
+
+    .gear-two{
+        animation:gearSpin;
+        animation-duration: 3000ms;
+        animation-iteration-count:infinite;
+        animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        position: absolute;
+        left: 30px;
+    }
+
+    .app-style-text-datenight {
+        position: absolute;
+        color: white;
+        top: 10px;
+        left: 115px;
+    }
+
+    .app-img{
+       height: inherit;
+    }
+
+    .bg-Android #datenight-card {
+        border: 0px solid;
+        box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 25%);
+        border-radius: 20px;
+        height: 680px;
+    }
+}
+

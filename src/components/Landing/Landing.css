@@ -1,0 +1,41 @@
+.bg-landingPg{
+    height: 100vh;
+    background: #E9EAEA;
+}
+
+.headingOne{
+    font-size: 34px!important;
+    color: #0c538d;
+}
+.link{
+    color: black;
+    text-decoration: underline;
+}
+.softroniiksLogo{
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    animation-name: float;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 15px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@media (max-width:600px) {
+    .headingOne{
+        font-size: 24px!important;
+    }
+}
