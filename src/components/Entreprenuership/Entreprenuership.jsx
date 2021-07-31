@@ -23,7 +23,7 @@ const Entrepreneurship =()=>{
         
                 <div className="row text-center">
                     <div className="col-md-12 bg-Afrowatch">
-                        <p className="text-center pt-4">One access streaming platform for all african movies, series and animation</p>
+                        <p className="text-center pt-md-4 pt-5">One access streaming platform for all african movies, series and animation</p>
                         <a target="_blank" href="https://afrowatch.co" rel="noreferrer" className="text-center mt-4 btn btn-primary my-2 mb-2">Find out more !</a>
                     </div>
                 </div>

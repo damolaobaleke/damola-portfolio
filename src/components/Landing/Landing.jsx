@@ -67,7 +67,7 @@ const LandingPage=()=>{
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 3200 } : {})}>
                             <div>
                                 <h1 className="headingOne">Tech Blog ?</h1>
-                                <p className="pb-3"><a className="link" rel="noreferrer" target="_blank" href="https://www.lboro.ac.uk/">Loughborough University, UK</a></p>
+                                <p className="pb-3"><a className="link" rel="noreferrer" href="#">Coming Soon</a></p>
                             </div>
                         </Slide>
 

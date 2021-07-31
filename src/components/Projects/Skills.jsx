@@ -27,6 +27,7 @@ const Skills=()=>{
                         <li>react-reveal</li>
                         <li>styled-components</li>
                         <li>axios</li>
+                        <li>etc..</li>
                     </ul>
                 </div>
 
@@ -51,6 +52,7 @@ const Skills=()=>{
                         <li>stripe</li>
                         <li>cors</li>
                         <li>Testing -Chai, Mocha</li>
+                        <li>etc..</li>
                     </ul>
                 </div>
 

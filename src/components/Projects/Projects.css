@@ -34,7 +34,7 @@
 
 .app-style-text-datenight{
     position: absolute;
-    color: white;
+    color: black;
     top: 10px;
     left: 35px;
 }
@@ -68,6 +68,7 @@
 
 .web-projects-list{
     list-style-type: none;
+    text-decoration: underline;
     
 }
 
@@ -116,6 +117,11 @@
         background-position: center;
     }
 
+    .bg-Android .card:hover{
+        transform: none;
+        transition: 500ms ease-in-out;
+    }
+
     .bg-Web{
         background: url("https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png");
         background-repeat: no-repeat;
@@ -134,22 +140,21 @@
         left: 30px;
     }
 
-    .app-style-text-datenight {
-        position: absolute;
-        color: white;
-        top: 10px;
-        left: 115px;
-    }
-
     .app-img{
-       height: inherit;
+       height: 150px;
     }
 
     .bg-Android #datenight-card {
         border: 0px solid;
         box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 25%);
         border-radius: 20px;
-        height: 680px;
+    }
+
+    .bg-Android .amb-app-img{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 66px;
     }
 }
 
