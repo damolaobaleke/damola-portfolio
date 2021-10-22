@@ -156,5 +156,9 @@
         position: relative;
         left: 66px;
     }
+
+    .play-btn{
+        display: none;
+    }
 }
 

@@ -11,7 +11,7 @@ import './Projects.css'
 
 const Projects=(props)=>{
     const[initialHeadingState, setHeading]=  useState({h1:["P","r","o","j","e","c","t","s"] })
-    const[prevState, setState] = useState({isMore:false, url:'https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&mute=0&enablejsapi=1', isMusic:true, buttonText:'Pause music'})
+    const[prevState, setState] = useState({isMore:false, url:'https://www.youtube.com/embed/Rah3raykQB4?autoplay=1&mute=0&enablejsapi=1', isMusic:true, buttonText:'Pause music'})
 
     useEffect(()=>{
         animateHeading()
@@ -33,9 +33,9 @@ const Projects=(props)=>{
 
     const stopMusic=()=>{
         if(prevState.isMusic){
-            setState({...prevState, isMusic:false, buttonText:'Play music'})
+            setState({...prevState, isMusic:false, url:"", buttonText:'Play music'})
         }else{
-            setState({...prevState, isMusic:true,  buttonText:'Pause music'})
+            setState({...prevState, isMusic:true,url:"https://www.youtube.com/embed/Rah3raykQB4?autoplay=1&mute=0&enablejsapi=1",  buttonText:'Pause music'})
         }
     }
 
@@ -54,7 +54,7 @@ const Projects=(props)=>{
                 <div className="row text-center">
                     <div className="col-md-12">
                         <span className="text-center">
-                            <button style={{outline:'none', background:'white',border:'black solid 1px', color:'black', borderRadius:'5px'}} onClick={stopMusic}>{prevState.buttonText}</button>
+                            <button className="play-btn" style={{outline:'none', background:'white',border:'black solid 1px', color:'black', borderRadius:'5px'}} onClick={stopMusic}>{prevState.buttonText}</button>
                         </span>
                     </div>
                 </div>
@@ -186,8 +186,8 @@ const Projects=(props)=>{
                     <Skills/>
                 </div>
                 
-                <div>
-                   {prevState.isMusic ? <iframe width="0" height="0" src="https://www.youtube.com/embed/Rah3raykQB4?autoplay=1&mute=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> : null}
+                <div className="row">
+                   {prevState.isMusic ? <iframe width="0" height="0" src={prevState.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> : null}
                 </div>
             </div>
             <Footer/>
