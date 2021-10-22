@@ -11,7 +11,7 @@ import './Projects.css'
 
 const Projects=(props)=>{
     const[initialHeadingState, setHeading]=  useState({h1:["P","r","o","j","e","c","t","s"] })
-    const[prevState, setState] = useState({isMore:false})
+    const[prevState, setState] = useState({isMore:false, url:'https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&mute=0&enablejsapi=1', isMusic:true, buttonText:'Pause music'})
 
     useEffect(()=>{
         animateHeading()
@@ -31,6 +31,14 @@ const Projects=(props)=>{
         
     }
 
+    const stopMusic=()=>{
+        if(prevState.isMusic){
+            setState({...prevState, isMusic:false, buttonText:'Play music'})
+        }else{
+            setState({...prevState, isMusic:true,  buttonText:'Pause music'})
+        }
+    }
+
 
     return(
         <div>
@@ -43,6 +51,13 @@ const Projects=(props)=>{
                     </div>
                 </div>
 
+                <div className="row text-center">
+                    <div className="col-md-12">
+                        <span className="text-center">
+                            <button style={{outline:'none', background:'white',border:'black solid 1px', color:'black', borderRadius:'5px'}} onClick={stopMusic}>{prevState.buttonText}</button>
+                        </span>
+                    </div>
+                </div>
 
                 <div className="row mt-5">
                     <div className="col-md-6 bg-Web text-md-center">
@@ -169,6 +184,10 @@ const Projects=(props)=>{
                         <h4 className="py-1 py-md-3 text-center">Skills</h4>
                     </div>
                     <Skills/>
+                </div>
+                
+                <div>
+                   {prevState.isMusic ? <iframe width="0" height="0" src="https://www.youtube.com/embed/Rah3raykQB4?autoplay=1&mute=0&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> : null}
                 </div>
             </div>
             <Footer/>

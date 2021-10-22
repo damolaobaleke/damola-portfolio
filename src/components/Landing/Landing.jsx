@@ -6,11 +6,21 @@ import './Landing.css';
 
 const LandingPage=()=>{
     const[initialState, setAnimationState] = useState({isAnimated:false})
+    
 
     useEffect(()=>{
         setAnimationState({...initialState, isAnimated:true})
-
+        //speak("Hello")
     },[]);
+
+    const speak=(msg)=>{
+        const sp = new SpeechSynthesisUtterance(msg);
+        [sp.voice] = speechSynthesis.getVoices();
+        for(let i=0; i<speechSynthesis.getVoices().length; i++){
+            console.log(speechSynthesis.getVoices()[i])
+        }
+        speechSynthesis.speak(sp);
+    }
 
     return(
         <div className="bg-landingPg">
@@ -53,6 +63,7 @@ const LandingPage=()=>{
                                 <p className="pb-3">Software or Hardware</p>
                             </div>
                         </Slide>
+
 
                     </div>
 
