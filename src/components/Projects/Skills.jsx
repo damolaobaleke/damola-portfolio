@@ -51,7 +51,7 @@ const Skills=()=>{
                         <li>body-parser</li>
                         <li>stripe</li>
                         <li>cors</li>
-                        <li>Testing -Chai, Mocha</li>
+                        <li>Testing -Chai, Mocha, Jest.js</li>
                         <li>etc..</li>
                     </ul>
                 </div>

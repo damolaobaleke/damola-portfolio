@@ -27,7 +27,6 @@ const LandingPage=()=>{
             <Navbar/>
             <div className="container">
                 <div className="justify-content-center row mt-5">
-
                     <div className="col-md-6">
                         <Slide direction="right" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 1600 } : {})}>
                             <div>
@@ -92,7 +91,7 @@ const LandingPage=()=>{
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 5400 } : {})}>
                             <div>
                                 <h1 className="headingOne">Experience in the Industry ?</h1>
-                                <p className="pb-3">2+ Years</p>
+                                <p className="pb-3">3+ Years</p>
                             </div>
                         </Slide>
 
@@ -103,7 +102,14 @@ const LandingPage=()=>{
                             </div>
                         </Slide>
                     </div>
+                </div>
 
+                <div className="row mt-3 text-center">
+                    <div className="col-md-12">
+                        <div>
+                            <h5 className="pb-3">I currently write code for the <a href="https://www.nytimes.com/" className='link' target="_blank" rel="noopener noreferrer">NewYork Times</a></h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
