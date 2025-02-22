@@ -45,7 +45,7 @@ const LandingPage=()=>{
                         <Slide direction="right" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 4400 } : {})}>
                             <div>
                                 <h1 className="headingOne">What's my degree In ?</h1>
-                                <p className="pb-3">BEng Electronic and Computer Systems Engineering</p>
+                                <p className="pb-3">BEng Electronic &#38; Computer Systems Engineering | MSCS</p>
                             </div>
                         </Slide>
 
@@ -77,7 +77,7 @@ const LandingPage=()=>{
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 3200 } : {})}>
                             <div>
                                 <h1 className="headingOne">Tech Blog ?</h1>
-                                <p className="pb-3"><a className="link" rel="noreferrer" href="#">Coming Soon</a></p>
+                                <p className="pb-3"><a className="link" rel="noreferrer" target='_blank' href="https://medium.com/@damolaobaleke_13193">Blog</a></p>
                             </div>
                         </Slide>
 
@@ -91,7 +91,7 @@ const LandingPage=()=>{
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 5400 } : {})}>
                             <div>
                                 <h1 className="headingOne">Experience in the Industry ?</h1>
-                                <p className="pb-3">3+ Years</p>
+                                <p className="pb-3">4+ Years</p>
                             </div>
                         </Slide>
 

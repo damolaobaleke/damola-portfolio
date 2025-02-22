@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import {Slide} from '@material-ui/core'
-import {Fade, Zoom} from 'react-reveal'
+// import {Fade, Zoom} from 'react-reveal'
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
 import ProjectHeading from '../animations/ProjectHeadinAnimation'
@@ -151,9 +151,10 @@ const Projects=(props)=>{
                                 <p className="text-center">I've released some into production both from my work experience and personal endeavors and i have a couple in alpha and beta stages.</p>
                             </div>
 
-                            <Zoom bottom {...(true ? { timeout: 1500 } : {})}>
+                            {/* <Zoom bottom {...(true ? { timeout: 1500 } : {})}> */}
                                 <div className="col-md-3">
-                                    <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.ltd_immersia_datenight">
+                                    {/* https://play.google.com/store/apps/details?id=com.ltd_immersia_datenight */}
+                                    <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.datenight_immersia_ltd">
                                     <small className="">2020-pres</small>
                                         <div id="datenight-card" className="card bottom-left-card justify-content-center mt-1">
                                             <p className="text-center">DateNight</p>
@@ -172,7 +173,7 @@ const Projects=(props)=>{
                                         </div>
                                     </a> 
                                 </div>
-                            </Zoom>
+                            {/* </Zoom> */}
                         </div>
                     </div>
                 </div>

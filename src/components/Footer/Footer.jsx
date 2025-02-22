@@ -30,7 +30,7 @@ const Footer=(props)=>{
 
             <div className="row justify-content-center">
                 <div className="col-md-8">
-                    <p className="my-5 mt-md-4 text-center">Copyright&#169; - Damola Obaleke</p>
+                    <p className="my-5 mt-md-4 text-center">Copyright&#169; - Damola Obaleke. {new Date().getFullYear()}</p>
                 </div>
             </div>
         </div>
