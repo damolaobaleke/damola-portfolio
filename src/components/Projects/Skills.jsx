@@ -16,19 +16,6 @@ const Skills=()=>{
                         <li>VanillaJs</li>
                         <li>React.Js</li>
                     </ul>
-
-                    <hr className="mt-5"/>
-
-                    <h4>Libraries used</h4>
-                    <ul>
-                        <li>material-ui/core</li>
-                        <li>react-bootstrap</li>
-                        <li>react-router-dom</li>
-                        <li>react-reveal</li>
-                        <li>styled-components</li>
-                        <li>axios</li>
-                        <li>etc..</li>
-                    </ul>
                 </div>
 
 
@@ -36,23 +23,11 @@ const Skills=()=>{
                     <h4 style={skillsHeadingStyle} className="my-4 my-md-0">Back-end</h4>
                     <ul>
                         <li>Node.js</li>
+                        <li>Python</li>
                         <li>Express</li>
                         <li>MongoDB</li>
                         <li>RESTFUl Api</li>
                         <li>GraphQL - Minimal</li>
-                    </ul>
-
-                    <hr className="mt-4"/>
-
-                    <h4>Libraries used</h4>
-                    <ul>
-                        <li>Authentication -passportjs, passport-local-mongoose</li>
-                        <li>express-session</li>
-                        <li>body-parser</li>
-                        <li>stripe</li>
-                        <li>cors</li>
-                        <li>Testing -Chai, Mocha, Jest.js</li>
-                        <li>etc..</li>
                     </ul>
                 </div>
 
@@ -72,7 +47,6 @@ const Skills=()=>{
 
                 <div className="col-md-3">
                     <h4 style={skillsHeadingStyle}>Android (JAVA'K)😅</h4>
-
                     <ul>
                         <li>Architecture -MVVM</li>
                         <li>UI -XML, Jetpack Compose 1.0.0</li>
@@ -82,8 +56,49 @@ const Skills=()=>{
                         <li>Lottie Animation</li>
                         <li>Notifications- FCM</li>
                     </ul>
+                </div>
 
+                <div className="col-md-3">
+                    <h4 style={skillsHeadingStyle}>A.I/LLMs</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>GPT3.5/4.0 API</li>
+                        <li>Claude Sonnet</li>
+                        <li>Gemini</li>
+                        <li>Pytorch, Jupyterlab, Google vertex, HuggingFace</li>
+                        <li>Gradio</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <hr />
 
+            <div className="row">
+                <div className="col-md-3">
+                     <h4>Libraries used</h4>
+                    <ul>
+                        <li>material-ui/core</li>
+                        <li>react-bootstrap</li>
+                        <li>react-router-dom</li>
+                        <li>react-reveal</li>
+                        <li>react-native</li>
+                        <li>styled-components</li>
+                        <li>axios</li>
+                        <li>etc..</li>
+                    </ul>
+                </div>
+
+                <div className="col-md-3">
+                    <h4>Libraries used</h4>
+                    <ul>
+                        <li>Authentication -passportjs, passport-local-mongoose</li>
+                        <li>express-session</li>
+                        <li>body-parser</li>
+                        <li>stripe</li>
+                        <li>cors</li>
+                        <li>Testing -Chai, Mocha, Jest.js</li>
+                        <li>etc..</li>
+                    </ul>
                 </div>
             </div>
             

@@ -7,22 +7,28 @@ const Footer=(props)=>{
         <div className="footer py-5">
             <div className="container">
                 <div className="row justify-content-center text-left text-md-center">
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <ul>
                             <li className="py-3"><a target="_blank" rel="noreferrer" href="http://github.com/damolaobaleke"><img className="footer-logo" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1621700316/github-logo-5F384D0265-seeklogo.com_pfxk5d.png" alt="github"/></a></li>
                         </ul>
 
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <ul>
                             <li className="pt-4"><a target="_blank" rel="noreferrer" href="https://stackoverflow.com/users/8537792/damola-obaleke"><img className="footer-logo" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627666727/768px-Stack_Overflow_icon.svg_gn7nt6.png" alt="stackoverflow"/></a></li>
                         </ul>
                     </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                         <ul>
                             <li className="pt-4"><a href="mailto:damolaobaleke@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-md-3">
+                        <ul>
+                            <li className="pt-4"><a href="https://linkedin.com/in/damola-obaleke" target="_blank"><img className="footer-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png" alt="linkedin"/></a></li>
                         </ul>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {Fade, Paper, Slide, Zoom, Grow} from '@material-ui/core'
+import {Fade, Paper, Slide, Zoom, Grow} from '@mui/material'
 import Navbar from '../NavBar/NavBar';
 import './Landing.css';
 
