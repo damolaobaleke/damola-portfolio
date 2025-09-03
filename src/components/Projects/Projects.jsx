@@ -1,13 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom';
-import {Slide} from '@material-ui/core'
-// import {Fade, Zoom} from 'react-reveal'
+import {Slide} from '@mui/material'
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
 import ProjectHeading from '../animations/ProjectHeadinAnimation'
 import Gear from '../animations/GearAnimation';
 import Skills from '../Projects/Skills';
 import './Projects.css'
+import ProjectTabs from '../Tabs/Tabs';
 
 const Projects=(props)=>{
     const[initialHeadingState, setHeading]=  useState({h1:["P","r","o","j","e","c","t","s"] })
@@ -35,7 +34,12 @@ const Projects=(props)=>{
         if(prevState.isMusic){
             setState({...prevState, isMusic:false, url:"", buttonText:'Play music'})
         }else{
-            setState({...prevState, isMusic:true,url:"https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&mute=0&enablejsapi=1",  buttonText:'Pause music'})
+            setState({
+                ...prevState, 
+                isMusic:true,
+                url:"https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&mute=0&enablejsapi=1",  
+                buttonText:'Pause music'
+            })
         }
     }
 
@@ -59,7 +63,11 @@ const Projects=(props)=>{
                     </div>
                 </div>
 
-                <div className="row mt-5">
+                <div className="row text-center mt-5">
+                    <ProjectTabs/>
+                </div>
+
+                {/* <div className="row mt-5">
                     <div className="col-md-6 bg-Web text-md-center">
                         <h4 className="text-center pb-3">Fullstack engineering.</h4>
                         
@@ -151,9 +159,9 @@ const Projects=(props)=>{
                                 <p className="text-center">I've released some into production both from my work experience and personal endeavors and i have a couple in alpha and beta stages.</p>
                             </div>
 
-                            {/* <Zoom bottom {...(true ? { timeout: 1500 } : {})}> */}
+                           
                                 <div className="col-md-3">
-                                    {/* https://play.google.com/store/apps/details?id=com.ltd_immersia_datenight */}
+                                    {/* https://play.google.com/store/apps/details?id=com.ltd_immersia_datenight 
                                     <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.datenight_immersia_ltd">
                                     <small className="">2020-pres</small>
                                         <div id="datenight-card" className="card bottom-left-card justify-content-center mt-1">
@@ -173,10 +181,10 @@ const Projects=(props)=>{
                                         </div>
                                     </a> 
                                 </div>
-                            {/* </Zoom> */}
+                 
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 <div className="row mt-4 justify-content-center">

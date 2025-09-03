@@ -15,16 +15,27 @@
 .bg-Android .card {
     border: 0px solid;
     box-shadow: 0px 4px 6px 2px rgb(0 0 0 / 25%);
-    height: 300px;
+    height: 200px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .app-img{
     border-radius: inherit;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    /* padding: 10px; */
 }
 
 .bg-Android .card:hover{
-    transform: scale(1.2);
+    transform: scale(0.9);
     transition: 500ms ease-in-out;
 }
 
@@ -40,12 +51,13 @@
 }
 
 .bg-Web{
-    background: url("https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png");
+    background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1756939764/mern-stack_xn2wap.png");
     background-repeat: no-repeat;
-    background-size: 600px; /*600px*/
+    background-size: contain;
     background-position: center;
+    height: 40vh;
     /* height: 100vh; */
-    border-right: 1px solid rgb(219, 215, 215);
+    /* border-right: 1px solid rgb(219, 215, 215); */
 }
 
 .web-project-link{
@@ -109,6 +121,11 @@
 
 }
 
+.bg-Android .amb-app-img{
+    height: 100px;
+    width: 100px;
+}
+
 @media(max-width:600px){
     .bg-Android{
         background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1627664794/Android-Logo_1_zvxzqy.svg");
@@ -123,12 +140,12 @@
     }
 
     .bg-Web{
-        background: url("https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png");
+        /* https://www.kindpng.com/picc/m/95-956807_mern-stack-developer-hd-png-download.png */
+        background: url("https://res.cloudinary.com/www-softroniiks-com/image/upload/v1756939764/mern-stack_xn2wap.png");
         background-repeat: no-repeat;
         background-size: 300px; /*600px*/
         background-position: right bottom;
-        border-right: 1px solid rgb(219, 215, 215);
-        
+        /* border-right: 1px solid rgb(219, 215, 215); */
     }
 
     .gear-two{
@@ -141,7 +158,13 @@
     }
 
     .app-img{
-       height: 150px;
+       border-radius: inherit;
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
     }
 
     .bg-Android #datenight-card {
@@ -151,10 +174,10 @@
     }
 
     .bg-Android .amb-app-img{
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
         position: relative;
-        left: 66px;
+        /* left: 66px; */
     }
 
     .play-btn{

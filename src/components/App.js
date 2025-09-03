@@ -4,6 +4,8 @@ import Landing from '../components/Landing/Landing';
 import Projects from '../components/Projects/Projects';
 import Entrepreneurship from '../components/Entreprenuership/Entreprenuership';
 import './App.css';
+import ProjectTabs from './Tabs/Tabs';
+
 
 const App=()=>{
   return (
