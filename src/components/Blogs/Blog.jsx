@@ -14,7 +14,7 @@ const Blog = () => {
         {
             blogName:"Scaling and Mainting NYT's Incident Management API",
             description:"Research and expertise in building scalable and maintainable APIs for reliable systems and incident management.",
-            link:"https://open.nytimes.com/subpage/b5a7d716399d",
+            link:"https://medium.com/@timesopen/scaling-and-maintaining-the-new-york-times-incident-management-api-aa50dffd24b7",
             feature:"The New York Times",
             companyLogo:'https://1000logos.net/wp-content/uploads/2017/04/Symbol-New-York-Times.png',
             companyLogoWidth:'40px'
