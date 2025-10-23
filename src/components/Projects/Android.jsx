@@ -9,27 +9,16 @@ const Android = () => {
                 
                 <div className="row py-3 px-1">
                     <div className="col-md-3">
-                        <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.asseco">
-                        <small>2019</small>
-                            <div className="card text-center my-4 my-md-0">
-                                <p className="text-center">AMB</p>
-                                <img className="amb-app-img" src="https://play-lh.googleusercontent.com/8cgBila4mjN4cPzvI6wjzXAYJI7YTSFt_7d6FoSyBdJmXZisc2GtSTFJxA6UVb7ranuS=s360-rw" alt=""/>
+                         <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.afrowatch.android">
+                        <small className="mb-2">2023-present</small>
+                            <div className="card justify-content-center" style={{backgroundColor:'#2D132C'}}>
+                                <p className="text-center text-white">Afrowatch</p>
+                                <img className="app-img" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1618744943/AfroWatch/Afrowatch-Logo--Vertical-White-font_h6sxho.png" alt="" />
                             </div>
                         </a> 
                     </div>
 
                     <div className="col-md-3 ml-auto">
-                        <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.fintech.eazifunds">
-                        <small>2019</small>
-                            <div className="card justify-content-center">
-                                <p className="text-center">Fundbridge</p>
-                                <img src="" alt=""/>
-                            </div>
-                        </a>
-                    </div>
-
-                     <div className="col-md-3">
-                        {/* https://play.google.com/store/apps/details?id=com.ltd_immersia_datenight */}
                         <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.datenight_immersia_ltd">
                         <small className="">2020-present</small>
                             <div id="datenight-card" className="card bottom-left-card justify-content-center mt-1">
@@ -39,8 +28,9 @@ const Android = () => {
                         </a>
                     </div>
 
-                    <div className="col-md-3 ml-auto">
-                        <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.softroniiks.digid">
+                     <div className="col-md-3">
+                        {/* https://play.google.com/store/apps/details?id=com.ltd_immersia_datenight */}
+                         <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.softroniiks.digid">
                         <small className="mb-2">2019-present</small>
                             <div className="card bottom-right-card justify-content-center" style={{backgroundColor:'#231C79'}}>
                                 <p className="text-center text-white">Digid</p>
@@ -48,15 +38,25 @@ const Android = () => {
                             </div>
                         </a> 
                     </div>
+
+                    <div className="col-md-3 ml-auto">
+                       <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.fintech.eazifunds">
+                        <small>2019</small>
+                            <div className="card justify-content-center">
+                                <p className="text-center">Fundbridge</p>
+                                <img src="" alt=""/>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <div className="row">
                     <div className="col-md-3">
-                        <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.afrowatch.android">
-                        <small className="mb-2">2023-present</small>
-                            <div className="card justify-content-center" style={{backgroundColor:'#2D132C'}}>
-                                <p className="text-center text-white">Afrowatch</p>
-                                <img className="app-img" src="https://res.cloudinary.com/www-softroniiks-com/image/upload/v1618744943/AfroWatch/Afrowatch-Logo--Vertical-White-font_h6sxho.png" alt="" />
+                        <a target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.asseco">
+                        <small>2019</small>
+                            <div className="card text-center my-4 my-md-0">
+                                <p className="text-center">AMB</p>
+                                <img className="amb-app-img" src="https://play-lh.googleusercontent.com/8cgBila4mjN4cPzvI6wjzXAYJI7YTSFt_7d6FoSyBdJmXZisc2GtSTFJxA6UVb7ranuS=s360-rw" alt=""/>
                             </div>
                         </a> 
                     </div>

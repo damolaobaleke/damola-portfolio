@@ -16,12 +16,12 @@ const AI = () => {
         },
         {
             name:"Maivo (EV Matching Marketplace)",
-            link:"https://dev.maivo.co",
+            link:"https://maivo.co",
             llms:["Gemini 2.5 Flash", "DeepSeek R1"]
         },
         {
             name:"Afrowatch iOS",
-            link:"https://testflight.apple.com/join/dHhPKSr6",
+            link:"https://apps.apple.com/us/app/afrowatch/id6749402440 ",//https://testflight.apple.com/join/dHhPKSr6
             llms:["Claude Sonnet 4.0"]
         }
     ])

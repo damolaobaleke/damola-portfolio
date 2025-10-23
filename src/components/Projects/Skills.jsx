@@ -26,8 +26,9 @@ const Skills=()=>{
                         <li>Python</li>
                         <li>Express</li>
                         <li>MongoDB</li>
+                        <li>Postgres</li>
                         <li>RESTFUl Api</li>
-                        <li>GraphQL - Minimal</li>
+                        <li>GraphQL</li>
                     </ul>
                 </div>
 
@@ -36,7 +37,7 @@ const Skills=()=>{
 
                     <ul>
                         <li>Cloudinary- CDN</li>
-                        <li>AWS- (S3, EC2, EBS)</li>
+                        <li>AWS- (S3, EC2, ECS, CW)etc.</li>
                         <li>Firebase</li>
                         <li>NginX, Apache server engine</li>
                         <li>VPS</li>
@@ -62,7 +63,7 @@ const Skills=()=>{
                     <h4 style={skillsHeadingStyle}>A.I/LLMs</h4>
                     <ul>
                         <li>Python</li>
-                        <li>GPT3.5/4.0 API</li>
+                        <li>OpenAI GPT API</li>
                         <li>Claude Sonnet</li>
                         <li>Gemini</li>
                         <li>Pytorch, Jupyterlab, Google vertex, HuggingFace</li>

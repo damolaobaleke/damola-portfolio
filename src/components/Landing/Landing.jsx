@@ -84,21 +84,21 @@ const LandingPage=()=>{
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 4400 } : {})}>
                             <div>
                                 <h1 className="headingOne">More than Technology ?</h1>
-                                <p className="pb-3">Chess, Soccer, Dancing, Gaming, Producing</p>
+                                <p className="pb-3">Chess, Soccer, Dancing, Gaming, Tennis</p>
                             </div>
                         </Slide>
 
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 5400 } : {})}>
                             <div>
                                 <h1 className="headingOne">Experience in the Industry ?</h1>
-                                <p className="pb-3">4+ Years</p>
+                                <p className="pb-3">5+ Years</p>
                             </div>
                         </Slide>
 
                         <Slide direction="left" in={initialState.isAnimated} {...(initialState.isAnimated ? { timeout: 6000 } : {})}>
                             <div>
                                 <h1 className="headingOne">Where do i currently reside ?</h1>
-                                <p className="pb-3">Los Angeles</p>
+                                <p className="pb-3">Los Angeles,CA</p>
                             </div>
                         </Slide>
                     </div>
@@ -107,7 +107,7 @@ const LandingPage=()=>{
                 <div className="row mt-3 text-center">
                     <div className="col-md-12">
                         <div>
-                            <h5 className="pb-3">I currently write code for the <a href="https://www.nytimes.com/" className='link' target="_blank" rel="noopener noreferrer">NewYork Times</a></h5>
+                            <h5 className="pb-3">I currently write code for the <a href="https://www.nytimes.com/" className='link' target="_blank" rel="noopener noreferrer">New York Times</a></h5>
                         </div>
                     </div>
                 </div>

@@ -14,7 +14,7 @@ const Blog = () => {
         {
             blogName:"Scaling and Mainting NYT's Incident Management API",
             description:"Research and expertise in building scalable and maintainable APIs for reliable systems and incident management.",
-            link:"https://medium.com/@timesopen/scaling-and-maintaining-the-new-york-times-incident-management-api-aa50dffd24b7",
+            link:"https://medium.com/@timesopen/scaling-and-maintaining-the-new-york-times-incident-management-api-a0ca8dbb0087",
             feature:"The New York Times",
             companyLogo:'https://1000logos.net/wp-content/uploads/2017/04/Symbol-New-York-Times.png',
             companyLogoWidth:'40px'
@@ -24,7 +24,7 @@ const Blog = () => {
     return (
         <div>
             <h1>Blog</h1>
-            <p>Welcome to the blog section!</p>
+            <p>Enjoy reading my engineering pieces/features!</p>
 
             <div className="container">
                 <div className="row mt-5">
